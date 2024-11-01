@@ -1,0 +1,176 @@
+#wpwrap {
+    background: #fff;
+}
+
+#wpfooter, .update-nag, .notice, .updated {
+    display: none;
+}
+
+.wplg-button {
+    background-color: #fff;
+    color: #5f81ff !important;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: all ease 0.15s;
+    vertical-align: middle;
+    box-sizing: border-box;
+    outline: none;
+    border: #e6f4ea 0.5px solid;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.wplg-button:focus,
+.wplg-button:hover {
+    outline: none !important;
+    background-color: rgba(26,115,232,0.039);
+    box-shadow: none !important;
+}
+
+.wplg-button-colored {
+    background-color: #5f81ff !important;
+    border: 1px solid #5f81ff !important;
+    color: #fff !important;
+}
+
+.wplg-input {
+    padding: 5px 10px !important;
+    border: 1px solid #ddd !important;
+    background-color: #fff !important;
+    -webkit-border-radius: 4px !important;
+    -moz-border-radius: 4px !important;
+    border-radius: 4px !important;
+    margin: 0 !important;
+    height: 40px !important;
+}
+
+.wplg-input:focus {
+    border-color: #ff8726 !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.wplg-select {
+    height: 40px !important;
+    vertical-align: middle !important;
+    -webkit-border-radius: 4px !important;
+    -moz-border-radius: 4px !important;
+    border-radius: 4px !important;
+    padding: 0 24px 0 10px !important;
+    border: 1px solid #ddd !important;
+}
+
+.wplg-input[readonly] {
+    background-color: #eee !important;
+}
+
+.wplg-select:focus {
+    border: 1px solid #ff8726 !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.wplg_admin_wrap {
+    display: inline-block;
+    width: 100%;
+    margin-left: -20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wplg_admin_wrap .wplg-left-panel {
+    padding: 10px;
+    box-sizing: border-box;
+    background: #fff;
+    width: 280px;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    z-index: 15;
+    -webkit-box-shadow: 0 1px 10px 0 rgba(0,0,0,.25);
+    -moz-box-shadow: 0 1px 10px 0 rgba(0,0,0,.25);
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,.25);
+}
+
+.wplg-cloud-tab-list {
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.wplg-cloud-tab-list li {
+    margin: 5px 0;
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+    border: #ccc solid 1px;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.wplg-cloud-tab-list li * {
+    vertical-align: middle;
+}
+
+.wplg-cloud-tab-list li a {
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    padding: 0;
+    font-weight: bold;
+    margin-left: 5px;
+    color: #888888 !important;
+}
+
+.wplg-cloud-tab-list li.active {
+    background: #5f81ff;
+    border: #5f81ff solid 1px;
+}
+
+.wplg-cloud-tab-list li.active svg * {
+    fill: #ffffff;
+}
+
+.wplg-cloud-tab-list li.active a {
+    color: #fff !important;
+}
+
+.wplg-cloud-tab-content {
+    display: none;
+}
+
+.wplg_admin_wrap .edit_wrap {
+    width: calc(100% - 260px);
+    padding: 0;
+    font-size: 14px;
+    margin-left: 280px;
+    box-sizing: border-box;
+    min-height: 200px;
+}
+
+.wplg-cloud-settings {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.wplg-cloud-setting-row {
+    width: calc(50% - 40px);
+    margin: 0 20px 40px 20px;
+}
+
+.wplg-cloud-setting-row input,
+.wplg-cloud-setting-row select {
+    width: 100% !important;
+    max-width: 100% !important;
+    display: inline-block;
+}
